@@ -1,0 +1,1 @@
+R001 not enough seat for this reservation!
