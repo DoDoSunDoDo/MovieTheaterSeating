@@ -17,8 +17,15 @@ This application is design for assigning seats within a movie theater to fulfill
 
 1. Cloen this repo and navigate to "src" folder.
 2. Compile all java files in package com.walmart.seating. <br> For example: ```javac MovieTheater.java``` Recommend to use IDE (IntelliJ).
-3. Use MovieTheaterDrive.java to run the program. User need to provide valid input file path and valid output file path to run the program. This two paths is seperated by one space. Current version only support for .txt file.  <br>For example: ```java MovieTheaterDriver $inputFilePath $outputFilePath``` <br>Another example: ```java MovieTheaterDriver C:\User\this\is\valid\input\path\input.txt C:\User\this\is\valid\output\path\output.txt```
-    <br> Input file is in the format of "R"+ $threeDigitNumberStartFrom1 + $space + $ticketNumberPerGroup. <br>
+3. Use MovieTheaterDrive.java to run the program. User need to provide valid input file path and valid output file path to run the program. This two paths is seperated by one space. Current version only support for .txt file.  <br>For example: 
+```
+java MovieTheaterDriver $inputFilePath $outputFilePath
+``` 
+Another example: 
+```
+java MovieTheaterDriver C:\User\this\is\valid\input\path\input.txt C:\User\this\is\valid\output\path\output.txt
+```
+Input file is in the format of "R"+ $threeDigitNumberStartFrom1 + $space + $ticketNumberPerGroup. <br>
     For example: 
 ```
 R001 2
