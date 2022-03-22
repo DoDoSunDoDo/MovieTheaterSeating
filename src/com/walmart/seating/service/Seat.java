@@ -1,2 +1,7 @@
-package com.walmart.seating.service;public class Seat {
+package com.walmart.seating.service;
+
+public enum Seat {
+    AVAILABLE,
+    RESERVED,
+    NOTAVAILABLE
 }
