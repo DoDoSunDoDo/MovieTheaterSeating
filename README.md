@@ -39,8 +39,8 @@ R001 F1,F2
 Roo2 not enough seat for this reservation!
 ```
 5. For testing purpose, this step is optional. Recommend to use IDE (IntelliJ).<br>
-5.1 Navigate to "test" folder. <br>
-5.2 Compile MovieTheaterTest.java file. <br>
-5.3 Run individualTest() function to run ten provided tests. The input file provided in "input" folder. The output file will be generated in "output" folder. The expected file provided in "expected" folder. <br>
-5.4 Compare result in $output.txt and $expected.txt. <br>
-5.5 Customized your own designed ticket reservation if you are interested in. Manually edit input.txt file under "file" folder. Check the corresponding output.txt file under "file" folder. 
+    1. Navigate to "test" folder. <br>
+    2. Compile MovieTheaterTest.java file. <br>
+    3. Run individualTest() function to run ten provided tests. The input file provided in "input" folder. The output file will be generated in "output" folder. The expected file provided in "expected" folder. <br>
+    4. Compare result in $output.txt and $expected.txt. <br>
+    5. Customized your own designed ticket reservation if you are interested in. Manually edit input.txt file under "file" folder. Check the corresponding output.txt file under "file" folder. 
